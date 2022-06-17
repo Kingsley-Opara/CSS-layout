@@ -1,0 +1,82 @@
+:root{
+    --white: hsl(0, 0%, 95%);
+    --orange: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --dark-cyan: hsl(179, 100%, 13%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.contanier{
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 150px 50px;
+    height: fit-content;
+}
+#sedans{
+    background-color: var(--orange);
+}
+#sedans button{
+    color: var(--orange);
+    margin-top: 50px;
+}
+#suvs{
+    background-color: var(--cyan);
+}
+#suvs button{
+    color: var(--cyan);
+}
+#luxury{
+    background-color: var(--dark-cyan);
+}
+#luxury button{
+    color: var(--dark-cyan);
+    margin-top: 60px;
+}
+.con{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    height: 450px;
+    color: var(--white);
+    width: 50vw;
+
+}
+.con p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+}
+h1{
+    padding-left: 30px;
+}
+button{
+    margin-top: 80px;
+    width: 130px;
+    border-radius: 30px;
+    align-self: center;
+    height: 40px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    background-color: black;
+    padding: 10px;
+}
+ul{
+    margin-left: auto;
+    padding: 0 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
