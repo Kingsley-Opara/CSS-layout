@@ -8,6 +8,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: 'Lexend Deca', sans-serif;
 }
 .box{
     margin-top: 40px;
@@ -27,7 +28,7 @@ body{
     "item3 item4";
     grid-template-rows: 3;
 }
-.container div{
+.container > .grid{
     height: 200px;
 }
 .red{
@@ -46,20 +47,29 @@ body{
 #green{
     height: 250px;
 }
+
 .blue{
     background-color: var(--blue);
-    height: 20px;
-    padding-bottom: 10px;
-    
-}
-#first{
-    height: 50px;
+    height: 110px;
+    width: 200px;
+    margin-top: 0;
 }
 #second{
-    height: 50px;
-    grid-column: 2;
-    margin-bottom: 10px;
-    gap: 0;
+    margin-top: 9px;
+}
+nav{
+    display: flex;
+    background-color: black;
+    padding: 10px;
+}
+ul{
+    margin-left: auto;
+    padding: 0 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
 }
 
 
